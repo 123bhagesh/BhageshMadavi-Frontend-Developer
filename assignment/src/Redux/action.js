@@ -23,7 +23,7 @@ const getDataFailure= () =>{
 const getData=(page,filter)=>(dispatch)=>{
     console.log("Pageeee",page)
         dispatch(getDataRequest())
-    return axios.get(`https://api.spacexdata.com/v3/capsules?offset=${page}&limit=9&status=${filter}`)
+    return axios.get(`https://api.spacexdata.com/v3/capsules?offset=${page}&limit=8&status=${filter}`)
     .then((r)=>{
         dispatch(getDataSuccess(r.data))
         console.log(r.data)
