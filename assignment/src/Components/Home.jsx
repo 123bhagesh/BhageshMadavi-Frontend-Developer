@@ -23,13 +23,14 @@ export const Home = () => {
 
   return (
     <Box>
-      <Box display={"flex"} flexDirection={{sm:"column",md:"column",lg:"row"}} justifyContent={{sm:"center",md:"center",lg:"space-Between"}}  gap={10} marginTop={10}> 
+      <Box display={"flex"} marginBottom={100} flexDirection={{sm:"column",md:"column",lg:"row"}} justifyContent={{sm:"center",md:"center",lg:"space-Between"}}  gap={10} marginTop={10}> 
         <Box padding={{sm:"20px 80px", md:"30px 80px",lg:"50px 150px"}}>
           <Text fontSize={40} fontWeight={600}>Hello Future...</Text>
           <Text fontSize={25}>It's about believing in the future and thinking that the future will be better than the past.</Text>
         </Box>
         <Image src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/05/spacex-1590902031.jpg" margin="auto" w={{sm:"200px", md:"300px", lg:"550px"}} h={{sm:"170px", md:"250px", lg:"300px"}} paddingRight={{sm:"none", md:"none", lg:"115px"}} />
       </Box>
+      <Box fontSize={35}>Capsules Filters</Box>
 
       <Box marginLeft={20} marginTop={35} gap={30} justifyItems={{sm:"center",md:"space-evenly", lg:"space-evenly"}}
        display={"grid"}
