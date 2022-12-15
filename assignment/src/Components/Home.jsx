@@ -66,7 +66,7 @@ export const Home = () => {
         md:"repeat(2, 1fr)",
         lg:"repeat(4, 1fr)"
       }}
-      gap={5} justifyItems="center" marginTop={50}>
+      gap={5} justifyItems="center" marginTop={50} marginBottom={50}>
         {
           data?.map((el)=>(
             <Box border="1px solid black" width="300px" textAlign="left" paddingLeft="10px" key={el.capsule_serial}>
